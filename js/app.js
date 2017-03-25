@@ -42,7 +42,10 @@ main.appendChild(newChuck);
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
 Append this div element to the aliasBox div.*/
-
+var newGrimmace = document.createElement("div");
+newGrimmace.id = "alias8";
+newGrimmace.innerHTML = "The Purple Monster.";
+main.appendChild(newGrimmace);
 
 
 
