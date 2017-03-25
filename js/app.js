@@ -3,23 +3,26 @@
 /*1. Replace the n/a with the following:
 
 Tay-Tay*/
-
+var changeTay = document.getElementById("name1");
+changeTay.innerHTML = "Tay-Tay";
 
 
 /*2. Replace the n/a with the following: 
 
 Project Manager*/
-
+var changeDJ = document.getElementById("position2");
+changeDJ.innerHTML = "Project Manager";
 
 
 /*3. Replace the n/a with the following:
 
 Concatenation*/
-
-
+var changePiko = document.getElementById("alias3");
+changePiko.innerHTML = "Concatenation";
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
-
+var changeSnoop = document.getElementsByClassName("profile");
+changeSnoop.innerHTML = "gangsta lorem ipsum";
 
 
 /*5. Relace the n/a for Samuel L Jackson with his lorem ipsum*/
