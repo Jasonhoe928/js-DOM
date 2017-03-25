@@ -21,13 +21,13 @@ var changePiko = document.getElementById("alias3");
 changePiko.innerHTML = "Concatenation";
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
-var changeSnoop = document.getElementsByClassName("profile");
+var changeSnoop = document.getElementsByClassName("profile")[0];
 changeSnoop.innerHTML = "gangsta lorem ipsum";
 
 
 /*5. Relace the n/a for Samuel L Jackson with his lorem ipsum*/
-
-
+var changeSammy = document.getElementsByClassName("profile")[2];
+changeSammy.innerHTML = "Lorem ipsum";
 
 
 /*6. Create a div element for Chuck Norris and give it an id of "name7". Inside this div element, give it the contents of "Chuck Norris".
