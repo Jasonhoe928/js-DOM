@@ -33,7 +33,10 @@ changeSnoop.innerHTML = "gangsta lorem ipsum";
 /*6. Create a div element for Chuck Norris and give it an id of "name7". Inside this div element, give it the contents of "Chuck Norris".
 
 Append this div element to the nameBox div*/
-
+var newChuck = document.createElement("div");
+newChuck.id = "name7";
+newChuck.innerHTML = "Chuck Norris";
+main.appendChild(newChuck);
  
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
